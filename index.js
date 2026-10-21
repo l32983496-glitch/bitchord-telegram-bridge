@@ -9,8 +9,8 @@ app.get('/manifest.json', (req, res) => {
     name: "Telegram Private Channel",
     version: "1.0.0",
     description: "Custom Telegram channel addon for BitChord",
-    types: ["audio"],
-    resources: ["stream"],
+    types: ["audio", "music"],
+    resources: ["search", "stream"],
     catalogs: [],
     idPrefixes: ["tg_"]
   });
